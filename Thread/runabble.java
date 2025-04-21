@@ -1,5 +1,6 @@
 class runabble implements Runnable {
     public void run() {
+    	System.out.println("Thread is Running.....................");
         for (int i = 1; i <= 5; i++) {
             System.out.println(Thread.currentThread().getName() + " - Count: " + i);
             try {
